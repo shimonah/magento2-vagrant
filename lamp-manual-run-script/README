@@ -1,4 +1,13 @@
-# Run scripts manualy:
+# create vagrant virtual machine
+vagrant up
+# when vitual machine will be created, run
+vagrant ssh
+# then go to
+cd /var/www
+# which is symlink to /vagrant folder
+# This information would be helpful for setting up server path mappings in phpstorm
+#
+# and run scripts manualy:
 bash inst-lamp-php7-0.sh
 # and
 bash create-v-host.sh
