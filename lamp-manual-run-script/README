@@ -7,3 +7,6 @@ bash create-v-host.sh
 # 
 192.168.33.10 your-virtual-localhost
 192.168.33.10 your-virtual-host-name.loc
+
+NFS for synced folders make works virtual machine much faster
+Aviod using forwarded ports if you want to use virtual hosts on your vagrant virtual machine
