@@ -1,2 +1,9 @@
-Run inst-lamp-php7-0.sh
-Then run create-v-host.sh
+# Run scripts manualy:
+bash inst-lamp-php7-0.sh
+# and
+bash create-v-host.sh
+#
+# In your host machine update /etc/hosts file and add
+# 
+192.168.33.10 your-virtual-localhost
+192.168.33.10 your-virtual-host-name.loc
