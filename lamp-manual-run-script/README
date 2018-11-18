@@ -1,2 +1,3 @@
-php 7.0
-xdebug
+Run *inst-lamp-php7-0.sh*
+Then run *create-v-host.sh*
+
