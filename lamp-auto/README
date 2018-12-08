@@ -1,6 +1,6 @@
 Automatically install lamp server
 
 Manually need to
-- add server name in /etc/hosts
+- add server name in /etc/hosts (IP for domain can be get in Vagrantfile - config.vm.network "private_network" - option)
 - create virtual host (as option run create-v-host.sh)
 - create database and import db-dump for project (if exists)
