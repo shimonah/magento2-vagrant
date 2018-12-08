@@ -80,8 +80,8 @@ xdebug.show_local_vars = 1 \n
 xdebug.idekey=PHPSTORM \n
 \n"
 #
-sudo rm /etc/php/7.0/mods-available/xdebug.ini
-sudo touch /etc/php/7.0/mods-available/xdebug.ini
-echo -e $XDEBUG_FILE | sudo tee -a /etc/php/7.0/mods-available/xdebug.ini
+sudo rm /etc/php/7.1/mods-available/xdebug.ini
+sudo touch /etc/php/7.1/mods-available/xdebug.ini
+echo -e $XDEBUG_FILE | sudo tee -a /etc/php/7.1/mods-available/xdebug.ini
 sudo systemctl restart apache2
 
