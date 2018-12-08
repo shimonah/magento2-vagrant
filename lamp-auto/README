@@ -1,0 +1,6 @@
+Automatically install lamp server
+
+Manually need to
+- add server name in /etc/hosts
+- create virtual host (as option run create-v-host.sh)
+- create database and import db-dump for project (if exists)
